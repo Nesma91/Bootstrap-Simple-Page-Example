@@ -1,0 +1,79 @@
+.carousel-item img {
+  height: 100vh;
+}
+.nav-link > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.card-header {
+  border: none !important;
+}
+.card-header-pills {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-item > .nav-link {
+  transition: 0.4s;
+}
+.nav-item > .nav-link.active {
+  background: transparent;
+  transform: scale(1.2);
+}
+
+/* ul {
+  background-image: linear-gradient(to left, rgb(73, 122, 106), pink);
+  opacity: 0;
+  text-align: center;
+}
+ul:hover {
+  opacity: 1;
+  cursor: pointer;
+} */
+
+ul i {
+  border: 1px solid white;
+  border-radius: 50%;
+
+  padding: 4%;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.76);
+}
+.img:hover {
+  transform: translateY(-25px);
+}
+
+#products .card div img {
+  height: 250px;
+}
+
+#products .card div {
+  color: white;
+}
+
+#products .card div:hover {
+  opacity: 1;
+  color: black;
+  transition: all 1ms;
+}
+#products .card div img:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+footer {
+  padding: 0 30px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(36, 95, 76),
+    rgb(100, 22, 22)
+  );
+}
+
+#login {
+  background-color: blueviolet;
+  border-radius: 30%;
+  border: 1px;
+}
